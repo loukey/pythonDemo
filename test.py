@@ -1,2 +1,1 @@
-i = 'S'
-print not i
+print 'aaaaa\tbbbb'
