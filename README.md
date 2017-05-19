@@ -1,17 +1,17 @@
 >PRELUDE TO PROGRAMMING (python)
 
-####python2.7安装
+####python2.7 && 3.*版本安装
 ####windows版本
  - 第一步:下载python 
  	- 进入这个网址`https://www.python.org/downloads/`
- 	- 点击下载2.7.13版本
+ 	- 点击下载2.7.13版本(如果想要安装python3.*版本的同学就下载对应的版本)
  	- <img src="./img/屏幕快照 2017-05-01 下午10.59.23.png"/>
  - 第二步:安装python
    - 点击刚刚下载的安装包,一路next,不过要记得自己安装的路径
  - 第三步:环境变量的配置
  	- 我的电脑右键-属性-高级系统设置-环境变量-系统变量-编辑Path- ;你的路径(注意这里的;)
  	- <img src="./img/屏幕快照 2017-05-01 下午11.02.13.png"/>
- 	- `win+R`-输入`cmd`-在dos窗口下输入`python`测试是否安装成功
+ 	- `win+R`->输入`cmd`->在dos窗口下输入`python`测试是否安装成功
  	- <img src="./img/屏幕快照 2017-05-01 下午11.04.17.png"/>
 
 #####mac版本
@@ -25,10 +25,13 @@
  	 - <img src="./img/屏幕快照 2017-05-01 下午10.55.17.png"/>
  	 - 安装完毕输入`python`检测是否成功
  	 - <img src="./img/屏幕快照 2017-05-01 下午10.55.29.png"/>
+ - 附加:mac上要装python3
+ 	 - 因为mac自带了python2的版本了,所以我才用了anaconda的沙盒模式
+ 	 - 大家先下载一个anaconda  `https://www.continuum.io/downloads#macos`,具体的anaconda教程详见`http://www.jianshu.com/p/27a78b2016e0`
 
 ####linux版本(ubuntu或者centOS找好自己的包管理器)
- - ubuntu:`apt-get install python2`
- - centOS:`yum install python2`
+ - ubuntu:`apt-get install python2`(安装python3的请改成python3)
+ - centOS:`yum install python2`(同上)
 
 ####ipython notebook
  - 我在里面把代码集成在了ipython notebook里,就是后缀名为`ipynb`的文件,大家可以在上述的terminal/dos窗口下输入,`pip install ipython notebook`安装,然后再输入`ipython notebook`打开就能使用
